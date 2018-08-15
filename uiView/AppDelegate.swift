@@ -57,7 +57,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let findNavigaitonController = UINavigationController(rootViewController: find)
         mine.title = "我的"
         let mineNavigationController = UINavigationController(rootViewController: mine)
-
+tabBarController.hidesBottomBarWhenPushed = true
         tabBarController.viewControllers = [wechatNavigationController,addressBookNavigationController,findNavigaitonController,mineNavigationController]
 
   
@@ -68,7 +68,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 //        tabBarController.viewControllers = [wechat,addressBook,find,mine]
 //
-        tabBarController.selectedIndex = 3
+        tabBarController.selectedIndex = 0
 //          wechat.tabBarItem.badgeValue = "10"
 
         window?.rootViewController = tabBarController

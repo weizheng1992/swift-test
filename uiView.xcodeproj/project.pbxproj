@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B01C16921241B5A0060FE33 /* BodyFatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01C16821241B5A0060FE33 /* BodyFatViewController.swift */; };
+		1B01C16F21242AB40060FE33 /* HomeSecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01C16E21242AB40060FE33 /* HomeSecViewController.swift */; };
+		1B01C171212433640060FE33 /* XZCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01C170212433640060FE33 /* XZCircleView.swift */; };
 		1B03333D2122A1BE00647FFE /* Goods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B03333C2122A1BE00647FFE /* Goods.swift */; };
 		1B03333F2122A26100647FFE /* GoodsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B03333E2122A26100647FFE /* GoodsTableViewCell.swift */; };
 		1B0333412122B59D00647FFE /* MineHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0333402122B59D00647FFE /* MineHeaderView.swift */; };
@@ -49,6 +52,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B01C16821241B5A0060FE33 /* BodyFatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyFatViewController.swift; sourceTree = "<group>"; };
+		1B01C16E21242AB40060FE33 /* HomeSecViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSecViewController.swift; sourceTree = "<group>"; };
+		1B01C170212433640060FE33 /* XZCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZCircleView.swift; sourceTree = "<group>"; };
 		1B03333C2122A1BE00647FFE /* Goods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goods.swift; sourceTree = "<group>"; };
 		1B03333E2122A26100647FFE /* GoodsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodsTableViewCell.swift; sourceTree = "<group>"; };
 		1B0333402122B59D00647FFE /* MineHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineHeaderView.swift; sourceTree = "<group>"; };
@@ -132,7 +138,10 @@
 				80ADE9C621102D84003E26B1 /* ViewController.swift */,
 				1BFF9A88211820F8000FD41F /* HomeController.swift */,
 				1B03333C2122A1BE00647FFE /* Goods.swift */,
+				1B01C16821241B5A0060FE33 /* BodyFatViewController.swift */,
+				1B01C170212433640060FE33 /* XZCircleView.swift */,
 				1B0333402122B59D00647FFE /* MineHeaderView.swift */,
+				1B01C16E21242AB40060FE33 /* HomeSecViewController.swift */,
 				1B0333482122CAEF00647FFE /* MineViewController.swift */,
 				1BFF9A8A21182277000FD41F /* TreasureBoxController.swift */,
 				1BFF9A8621181E2A000FD41F /* QCTabBarController.swift */,
@@ -304,6 +313,7 @@
 				1B03333D2122A1BE00647FFE /* Goods.swift in Sources */,
 				1B0333452122C32200647FFE /* MineViewCell.swift in Sources */,
 				80ADE9F721104AB0003E26B1 /* AddressBookViewController.swift in Sources */,
+				1B01C16F21242AB40060FE33 /* HomeSecViewController.swift in Sources */,
 				1B03333F2122A26100647FFE /* GoodsTableViewCell.swift in Sources */,
 				80ADE9F52110486A003E26B1 /* WeChatViewController.swift in Sources */,
 				1BFF9A89211820F8000FD41F /* HomeController.swift in Sources */,
@@ -312,9 +322,11 @@
 				80ADE9FD211052C3003E26B1 /* FirstViewController.swift in Sources */,
 				1BFF9A8B21182277000FD41F /* TreasureBoxController.swift in Sources */,
 				1B0333412122B59D00647FFE /* MineHeaderView.swift in Sources */,
+				1B01C171212433640060FE33 /* XZCircleView.swift in Sources */,
 				1B0333492122CAEF00647FFE /* MineViewController.swift in Sources */,
 				80ADE9C521102D84003E26B1 /* AppDelegate.swift in Sources */,
 				1BFF9A8721181E2A000FD41F /* QCTabBarController.swift in Sources */,
+				1B01C16921241B5A0060FE33 /* BodyFatViewController.swift in Sources */,
 				80ADE9F32110422C003E26B1 /* RootViewController.swift in Sources */,
 				1B03334B2122CB9700647FFE /* Mine.swift in Sources */,
 				80ADE9F921104ABA003E26B1 /* FindViewController.swift in Sources */,

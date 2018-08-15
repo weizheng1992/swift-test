@@ -25,6 +25,13 @@ class WeChatViewController: UIViewController {
         view.addSubview(label)
         
         
+       navigationItem.rightBarButtonItem = UIBarButtonItem(title: "体脂检测", style: .plain, target: self, action: #selector(nextPageClick))
+        
+        
+    }
+    
+    @objc func nextPageClick() {
+        navigationController?.pushViewController(HomeSecViewController(), animated: true)
     }
 
     override func didReceiveMemoryWarning() {

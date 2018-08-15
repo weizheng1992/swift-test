@@ -14,7 +14,13 @@ class HomeController: UIViewController {
         super.viewDidLoad()
         title = "首页"
         view.backgroundColor = UIColor.red
+         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "体脂检测", style: .plain, target: self, action: #selector(nextPageClick))
+        
         // Do any additional setup after loading the view.
+    }
+    
+    @objc func nextPageClick() {
+        navigationController?.pushViewController(BodyFatViewController(), animated: true)
     }
 
     override func didReceiveMemoryWarning() {
